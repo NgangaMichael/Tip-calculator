@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery-3.5.1.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="app">
+	<div class="calculator">
+		<header><h1>Tip calculator</h1></header>
+		<main>
+			<section class="options">
+				<div class="input-group">
+					<!-- <div class="pre">$</div> -->
+					<input type="number" required="" name="" placeholder="How much is the bill?" class="cost">
+				</div>
+				<div class="input-group">
+					<select class="service" required="">
+						<option disabled selected="">How was  service</option>
+						<option value="30">5 - Amaizing</option>
+						<option value="20">4 - Great</option>
+						<option value="10">3 - Good</option>
+						<option value="5">2 - Alright</option>
+						<option value="0">1 - Terrible</option>
+					</select>
+				</div>
+
+				<div class="input-group">
+					<input type="number" name="" placeholder="How many are sharing the bill" class="people">
+				</div>
+			</section>
+
+			<footer>
+			<button id="tip-btn">Tip</button>
+			</footer>
+			
+			<section class="tip-wrap">
+				<p>You should tip</p>
+				<h3 class="tip">0ksh</h3>
+			</section>
+			<section class="totalTip">
+				<p>Total tip is</p>
+				<h3 class="allTip">0ksh</h3>
+			</section>
+		</main>
+	</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

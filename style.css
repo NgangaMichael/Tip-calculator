@@ -1,0 +1,57 @@
+
+.app {
+	text-align: center;
+	width: 50%;
+	padding: 2px 2px;
+	box-shadow: 2px 2px 5px rgba(0,0,0, 0.1);
+	border-radius: 1rem;
+}
+
+header {
+	background-color: orange;
+	color: #fff;
+	margin-top: -1.4rem;
+	width: 100%;
+	padding: 0;
+	border-radius: 1rem;
+}
+
+.input-group input, select {
+	outline: none;
+	border: none;
+	padding-top: -4rem;
+	border-bottom: 2px solid orange;
+	width: 100%;
+	font-size: 1rem;
+	font-weight: 500;
+	box-sizing: border-box;
+}
+
+#tip-btn {
+	margin-top: 1rem;
+	background-color: orange;
+	border: none;
+	outline: none;
+	padding: 1rem 1rem;
+	border-radius: 1rem;
+	cursor: pointer;
+}
+
+.tip {
+	background-color: green;
+	color: #fff;
+	height: 2rem;
+}
+
+.tip-wrap {
+	margin-bottom: -1.4rem;
+}
+
+.tip-wrap h3 {
+	padding-top: 1rem;
+}
+
+.totalTip p {
+	padding-top: 1rem;
+	padding-bottom: -2rem;
+}
